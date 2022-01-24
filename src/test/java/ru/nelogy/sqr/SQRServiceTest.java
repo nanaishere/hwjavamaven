@@ -13,10 +13,10 @@ class SQRServiceTest {
             "zero range,0,0,0",
             "interval border square number,225,225,1",
             "invalid range,225,225,1"})
-    public void sqrRange(int lowLimit, int Uplimit, int expected) {
+    public void sqrRange(int lowLimit, int uplimit, int expected) {
 
         SQRService service = new SQRService();
-        int actual = service.sqrRange(lowLimit, Uplimit);
+        int actual = service.sqrRange(lowLimit, uplimit);
         assertEquals(expected, actual);
     }
 }
