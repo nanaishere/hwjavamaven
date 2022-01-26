@@ -5,10 +5,9 @@ public class SQRService {
         int count = 0;
         int i;
         for (i = 10; i <= 99; i++) {
-            if (i * i >= lowLimit) {
+            if (i * i >= lowLimit && i * i <= upLimit) {
                 System.out.println("Число подходит по нижней границе");
-                if (i * i <= upLimit)
-                    System.out.println("Число подходит по верхней границе");
+                System.out.println("Число подходит по верхней границе");
                 count = count++;
             }
 
