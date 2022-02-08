@@ -21,9 +21,6 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>
